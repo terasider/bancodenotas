@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f9;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#note-database {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#note-database input, #note-database select, #note-database button {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#note-database button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+#note-database button:hover {
+    background-color: #45a049;
+}
+
+#note-editor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#note-editor input, #note-editor textarea {
+    width: 300px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#note-editor button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#note-editor button:hover {
+    background-color: #45a049;
+}
+
+#filters {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#filters input, #filters button {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#filters button {
+    background-color: #2196F3;
+    color: white;
+    cursor: pointer;
+}
+
+#filters button:hover {
+    background-color: #1E88E5;
+}
+
+#notes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.note {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.note-category {
+    font-weight: bold;
+}
+
+.note-url {
+    color: blue;
+    text-decoration: underline;
+}
+
+.note-content {
+    margin-top: 5px;
+}
+
+.note button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.note button:hover {
+    background-color: #d32f2f;
+}

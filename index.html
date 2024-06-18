@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloco de Notas</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <h1>Bloco de Notas</h1>
+    
+    <div id="note-database">
+        <input type="text" id="new-database" placeholder="Novo Banco de Notas" />
+        <button id="add-database">Criar Banco</button>
+        <select id="database-selector">
+            <option value="default">Banco Padrão</option>
+        </select>
+        <button id="delete-database">Excluir Banco</button>
+    </div>
+    
+    <div id="note-editor">
+        <input type="text" id="note-category" placeholder="Categoria" />
+        <input type="text" id="note-url" placeholder="URL" />
+        <textarea id="note-content" placeholder="Digite sua nota aqui..."></textarea>
+        <button id="add-note">Adicionar Nota</button>
+    </div>
+    
+    <div id="filters">
+        <input type="text" id="filter-category" placeholder="Filtrar por Categoria" />
+        <input type="text" id="filter-url" placeholder="Filtrar por URL" />
+        <button id="apply-filters">Aplicar Filtros</button>
+        <button id="clear-filters">Limpar Filtros</button>
+    </div>
+    
+    <div id="notes-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
